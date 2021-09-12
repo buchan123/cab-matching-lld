@@ -53,6 +53,7 @@ public class AddRatingController {
             rideTaker = rideTakerService.getRideTaker(rideTakerId);
         }
         addRatingService.addRating(rideTaker, riderRating,cabDriver, driverRating);
+        System.out.println("Added New Rating");
     }
 
 }
