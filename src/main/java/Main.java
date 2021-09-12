@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
-        final CabDriverService cabDriverService = new CabDriverService();;
+        final CabDriverService cabDriverService = new CabDriverService();
         final RideTakerService rideTakerService = new RideTakerService();
         final AddRatingService addRatingService = new AddRatingService();
 
