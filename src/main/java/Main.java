@@ -36,7 +36,7 @@ public class Main {
             String riderName = sc.next();
             try{
                 String driverName = matchDriverWithRiderController.MatchDriverWithRider(riderName);
-                System.out.println("Driver :"+driverName);
+                System.out.println("Driver : "+driverName);
             }
             catch (NoEligibleDriverFoundException e){
                 System.out.println("No Eligible Drivers Found");
